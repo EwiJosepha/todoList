@@ -1,0 +1,43 @@
+/* .heading {
+  color: deeppink;
+}
+
+button {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: red;
+
+}
+
+button:hover {
+  animation: name duration timing-function delay iteration-count direction fill-mode;
+}  */
+
+/* 
+ #todo {
+  max-width: cal(100vw-20px);
+  width: 300px;
+  margin: 20px auto;
+  font-family: sans-serif
+}
+
+#todo-container.input {
+  
+}
+#todo-container.select {
+ width: 100px;
+
+}
+
+#todo-container.input {
+display: flex;
+align-items: center;
+}
+
+#todo-container button {
+  margin-left: auto;
+  padding: 5px;
+  text-align: center;
+
+} */
