@@ -1,4 +1,4 @@
-/* .heading {
+.heading {
   color: deeppink;
 }
 
@@ -12,9 +12,9 @@ button {
 
 button:hover {
   animation: name duration timing-function delay iteration-count direction fill-mode;
-}  */
+}
 
-/* 
+
  #todo {
   max-width: cal(100vw-20px);
   width: 300px;
@@ -40,4 +40,4 @@ align-items: center;
   padding: 5px;
   text-align: center;
 
-} */
+}
