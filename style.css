@@ -6,7 +6,7 @@ button {
   border: none;
   width: 20px;
   height: 20px;
-  background-color: red;
+  background-color: #ff0000;
 
 }
 
@@ -23,6 +23,7 @@ button:hover {
 }
 
 #todo-container.input {
+  background-color: aquamarine;
   
 }
 #todo-container.select {
