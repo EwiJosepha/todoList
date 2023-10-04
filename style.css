@@ -49,9 +49,6 @@ body {
   transition: margin-left 0.3s ease-out;
 }
 
-.todo p {
-  margin: 0;
-}
 
 #todo-flex {
   /* display: flex; */
