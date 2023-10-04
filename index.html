@@ -1,62 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
-  <title>Dom manu</title>
-</head>
-<body>
-  <div id="todo">
-    
-    <form>
-      <label for todo>
-        <input type="text" name="todo" id="todo">
-        <div id="todo-options">
-          <select name="priority">
-            <option value="high">high</option>
-            <option value="medium">medium</option>
-            <option value="low">low</option>
-            <option value="dowm">dowm</option>
-          </select>
-        </div>
-      </label>
-      <label for="">Deadline
-        <input type="date" name="dealine">
-      </label>
-      <button> add</button>
-    </form>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Dom manu</title>
+  </head>
 
-    <div class="todos">
-      <div class="todo-flex">
-        <div class="todo-box">
-        <div class="flex">
-          <p clas="flex">first todo</p>
-          <p class="time"> 04/05/2310.28</p>
+  <body>
+    <div id="todo-container">
+      <form action="" id="todo">
+        <label for="todo">
+          TODO<br />
+          <input type="text" name="todo" id="todo" />
+        </label>
+
+        <div class="todo-options">
+          <label for="">
+            PRIORITY<br />
+            <select name="priority">
+              <option disabled>Select an Option</option>
+              <option value="high">High</option>
+              <option value="medium">Meduim</option>
+              <option value="low">Low</option>
+            </select>
+          </label>
+
+          <label for="">
+            Deadline<br />
+            <input type="text" name="dealine" id="todo" />
+          </label>
         </div>
-        <div class="flex">
-          <p clas="flex">high</p>
-          <p class="time">before: 10.28</p>
+        <button>add</button>
+      </form>
+      <div class="todos">
+        <div id="todo-flex">
+          <input type="checkbox" >
+
+          <div class="details">
+            <div class="flex">
+              <p class="namme">first Todo</p>
+              <p class="time">10.28</p>
+            </div>
+
+            <div class="flex">
+              <p>High</p>
+              <p>Before 12-12-23 10:28</p>
+            </div>
+          </div>
         </div>
-      </div>
       </div>
     </div>
-  </div>
-  <!-- <h1 id="heading">hello</h1> 
-  <h1 class="primaryHeading"></h1> 
-
-  <button>impossble to hover</button>
-  <input id="best-input">
-  <form>
-    <input id="name">
-    <input id="email">
-    <input id="form">
-    <input id="country">
-    <input id="quater">
-    <input id="input">
-    <input id="input">
-    <button>Submit</button>
-  </form> -->
-  <script src="./todo.js"></script>
-</body>
+    <script src="./todo.js"></script>
+  </body>
 </html>
